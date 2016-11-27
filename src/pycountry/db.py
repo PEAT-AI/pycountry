@@ -62,7 +62,7 @@ class Database(object):
         self.data_class = type(
             self.data_class_name, (self.data_class_base,), {})
 
-        with open(self.filename, 'r') as f:
+        with open(self.filename, 'r', encoding="utf-8") as f:
             tree = json.load(f)
 
         for entry in tree[self.root_key]:
