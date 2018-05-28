@@ -2,6 +2,13 @@
 pycountry
 =========
 
+Fork of official [pycountry package from bitbucket](https://bitbucket.org/flyingcircus/pycountry)
+
+To install you need a read access for this repository. Copy-paste the command
+```
+pip intstall -e git+https://github.com/PEAT-AI/pycountry.git#egg=pycountry
+```
+
 pycountry provides the ISO databases for the standards:
 
 639-3
