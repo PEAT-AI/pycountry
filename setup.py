@@ -7,7 +7,7 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='pycountry',
+    name='peat-pycountry',
     version='18.5.27',
     author='Christian Theune',
     author_email='ct@flyingcircus.io',
